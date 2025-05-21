@@ -7,9 +7,9 @@ function App() {
     <>
       <div>
         <Routes>
-          <Route />
-          <p>Holla</p>
-          <Route />
+          <Route path="/" element={<Home />}/>
+          
+          <Route path="/movies" element={<Movies />}/>
         </Routes>
       </div>
     </>
